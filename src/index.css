@@ -1,1 +1,19 @@
+/* */
+header {
+    text-align: center;
+} 
+
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+      
+}
+
+nav li {
+    display: inline;
+    padding: 5vw;
+}
+
+
 
