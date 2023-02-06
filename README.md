@@ -6,8 +6,8 @@ As a team, we believe in the power of education and community action to drive ch
 
 ## Features
 
-- Interactive Map: One of the centerpiece features of our application is an interactive map built using Tableau. The map displays information about the gender wage gap in different counties across Washington state. Additionally, users can view the locations of local charities that are working to address the issue of gender inequality.
+- Interactive Map: The centerpiece feature of our application is an interactive map built using Tableau. The map displays information about the gender wage gap in different counties across Washington state. Additionally, users can view the locations of local charities that are working to address the issue of gender inequality.
 
 - Get Involved: Our "Get Involved" section is designed to empower users to take action in their local communities. Users can search for and filter local charities by location and keyword to find organizations that align with their interests and values.
 
-- About Us: Finally, our "About Us" section introduces the team and their motivation for this project. We share our thoughts on why we believe it's important to raise awareness about the gender wage gap and what we hope to accomplish with this web application.
+- About Us: Our "About Us" section introduces the team and their motivation for this project. We share our thoughts on why we believe it's important to raise awareness about the gender wage gap and what we hope to accomplish with this web application.
