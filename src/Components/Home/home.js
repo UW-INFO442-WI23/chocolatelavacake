@@ -3,7 +3,7 @@ export default function Home(props) {
     return (
         <div className='container-home'>
             <div className='paragraph-one'>
-                <p>
+                <p className='text'>
                 Lorem ipsum dolor sit amet. Vel enim officia et 
                 amet quasi in voluptatem provident vel animi 
                 internos et voluptatem molestias non consequatur 
@@ -15,7 +15,7 @@ export default function Home(props) {
                 </div>
             </div>
             <div className='paragraph-two'>
-                <p>
+                <p className='text'>
                 Lorem ipsum dolor sit amet. Vel enim officia et 
                 amet quasi in voluptatem provident vel animi 
                 internos et voluptatem molestias non consequatur 

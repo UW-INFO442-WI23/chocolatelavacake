@@ -64,13 +64,14 @@ a:hover::before {
 .img-box {
     border: 1px solid black;
     background-color: #333;
-    width: 475px;
+    width: 25%;
     height: 264px;
 }
 
+/*align items in home section*/
 .paragraph-one {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: left;
 }
 
@@ -78,7 +79,7 @@ a:hover::before {
     margin-top: 5%;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: right;
     
 }
@@ -87,3 +88,28 @@ a:hover::before {
     margin: auto;
     width: 75%;
 }
+
+p {
+    width: 40%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+}
+
+/* map sizing*/
+.map-container {
+    text-align: center;
+}
+
+.map {
+    width: 75%;
+    height: 600px;
+    background-color: #333;
+    margin: auto;
+}
+
+/*Get Involved Section*/
+
+.container-mission {
+    text-align: center;
+}
+
