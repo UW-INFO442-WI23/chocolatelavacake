@@ -10,7 +10,7 @@ export default function map(props) {
                 Interactive Map
             </h2>
             <div className='map'>
-
+                
             </div>
         </div>
     );

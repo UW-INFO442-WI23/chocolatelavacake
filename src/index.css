@@ -89,7 +89,7 @@ a:hover::before {
     width: 75%;
 }
 
-p {
+.container-home p {
     width: 40%;
     font-family: "Times New Roman", Times, serif;
     font-size: large;
@@ -111,5 +111,47 @@ p {
 
 .container-mission {
     text-align: center;
+    margin: auto;
+    width: 75%;
 }
+
+/* search */
+
+.search-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.search {
+    width: 33.3%;
+    padding: 5px;
+}
+
+/* filter */
+.filter {
+    padding: 5px;
+}
+
+
+/* organizations */
+.org {
+    width: 75%;
+    height: 400px;
+    background-color: #333;
+    margin: auto;
+    overflow: scroll;
+}
+
+
+/* about section */
+.about-container {
+    margin: auto;
+}
+
+.about-container h2 {
+    text-align: center;
+}
+
+
 

@@ -16,6 +16,15 @@ export default function Mission(props) {
             <p>
                 Lorem ipsum dolor sit amet. Vel enim officia et amet quasi in voluptatem provident vel animi internos et voluptatem molestias non consequatur totam! Ut obcaecati enim cum veniam tempore hic quidem consectetur ut consectetur alias.
             </p>
+            <div className='search-filter'>
+                <input className='search' placeholder="Search for an Organization" />
+                <button className='filter'> 
+                    filter
+                </button>
+            </div>
+            <div className='org'>
+
+            </div>
         </div>
     )
 };

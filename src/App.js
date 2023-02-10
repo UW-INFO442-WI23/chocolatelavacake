@@ -16,6 +16,7 @@ export default function App(props) {
           <Home />
           <Map />
           <Mission />
+          <About />
         </body>
  
       </div>
