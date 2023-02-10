@@ -11,13 +11,10 @@ export default function App(props) {
           <h1>logo</h1>
           <Nav />
         </header>
-        <Router>
-          <Routes>
-            <Route path="/Home" element={<Home/>} />
-            <Route path="/About" element={<About />} />
-            <Route path="/Mission" element={<Mission/>} />
-          </Routes>
-        </Router> 
+        <body>
+          <Home />
+        </body>
+ 
       </div>
     );
   }
