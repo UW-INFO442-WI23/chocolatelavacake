@@ -7,7 +7,7 @@ export default function About(props) {
             </h2>
             <div className='paragraph-one'>
                 <p className='text'>
-                Lorem ipsum dolor sit amet. Vel enim officia et 
+                Hello ipsum dolor sit amet. Vel enim officia et 
                 amet quasi in voluptatem provident vel animi 
                 internos et voluptatem molestias non consequatur 
                 totam! Ut obcaecati enim cum veniam tempore hic 

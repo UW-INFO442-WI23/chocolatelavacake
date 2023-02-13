@@ -147,6 +147,7 @@ a:hover::before {
 /* about section */
 .about-container {
     margin: auto;
+    width: 75%;
 }
 
 .about-container h2 {
