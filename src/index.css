@@ -9,6 +9,13 @@ header h1 {
     margin-bottom: 7vh; /*add space between logo and nav */
 }
 
+nav {
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    margin-top: -70px;
+    
+}
 
 nav ul {
     list-style-type: none;
