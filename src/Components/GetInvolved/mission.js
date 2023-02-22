@@ -1,6 +1,7 @@
 
 import React from 'react';
 import {useState} from "react";
+import {info442data} from "../../../public/info442data.json";
 
 export default function Mission(props) {
 
@@ -9,20 +10,14 @@ export default function Mission(props) {
     // create drop down menu
     // create filter options
     // filter function
-    let testArray = [
-        {"name":"Org1"},
-        {"name":"Women"},
-        {"name":"Men"},
-        {"name":"DiffOrg"},
-        {"name":"New"},
-    ]
-    // let orgArray = [...props.data];
+
+
+    let orgArray = [...info442data];
     const [textContent, setTextContent] = useState("");
-    let rows = results(testArray);
-    let testString = "Men";
-    console.log(testString.toLowerCase().includes("men"));
+    let rows = results(orgArray);
+
     const handleChange = (event) => {
-        let data = [...testArray];
+        let data = [...orgArray];
         const typedContent = event.target.value;
         setTextContent(typedContent);
         console.log(typedContent);
