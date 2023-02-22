@@ -146,6 +146,16 @@ a:hover::before {
         width: 75%;
     }
 
+    table {
+        width: 100%;
+    }
+
+    td {
+        background-color: white;
+        border: 1px solid black;
+        text-align: center;
+    }
+
     /* search */
 
     .search-filter {
