@@ -1,7 +1,7 @@
 
 import React from 'react';
 import {useState} from "react";
-import {info442data} from "../../../public/info442data.json";
+import info442data from "../data/info442data.json";
 
 export default function Mission(props) {
 
@@ -17,13 +17,18 @@ export default function Mission(props) {
     let rows = results(orgArray);
 
     const handleChange = (event) => {
-        let data = [...orgArray];
+        //let data = [...orgArray];
         const typedContent = event.target.value;
         setTextContent(typedContent);
-        console.log(typedContent);
+        //console.log(typedContent);
+
+    }
+
+    if (textContent.length > 0) {
+        let data = [...orgArray];
         data = data.filter((org) => {
-            let name = org.name;
-            console.log("checking: " + name.toUpperCase() + " " + name.includes(textContent.toUpperCase()));
+            let name = org.title;
+            //console.log("checking: " + name.toUpperCase() + " " + name.includes(typedContent.toUpperCase()));
             return (name.toUpperCase().includes(textContent.toUpperCase()));
         });
         rows = results(data);
@@ -32,9 +37,9 @@ export default function Mission(props) {
     function results(data) {
         data = data.map((org) => {
             let row = (
-                <tr key = {org.name}>
+                <tr key = {org.title}>
                     <td>
-                        {org.name}
+                        {org.title}
                     </td>
                 </tr>
             );
