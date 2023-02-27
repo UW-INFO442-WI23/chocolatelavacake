@@ -34,8 +34,7 @@ export default function Mission(props) {
             )
           }
     }
-
-    const checkBoxTags = (event) => {
+    const checkBoxTags = (event) => { 
         if (event.target.checked) {
             applyTags([...appliedTags, event.target.value]);
           } else {
@@ -45,7 +44,8 @@ export default function Mission(props) {
           }
     }
     
-    if (appliedLocation.length > 0 || appliedTags > 0) {
+    // if filters are applied, filter the data
+    if (appliedLocation.length > 0 || appliedTags.length > 0) {
 
         let filterData = [...orgArray];
         filterData = filterData.filter((org) => {
@@ -57,8 +57,9 @@ export default function Mission(props) {
         });
         shownData = filterData;
         rows = results(filterData);
+
     } else {
-        shownData = DATA;
+        shownData = DATA; // if there is no filters applied, return normal data
     }
    
     /* When user searches in search bar */
