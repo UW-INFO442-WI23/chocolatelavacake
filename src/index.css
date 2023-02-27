@@ -85,6 +85,14 @@ a:hover::before {
     p {
         text-align: center;
     }
+
+    #tableau {
+        display:flexbox;
+        height: 200px;
+        width: 300px;
+        margin: auto;
+    }
+
 }
 
 @media (min-width: 769px) {
@@ -131,11 +139,10 @@ a:hover::before {
         text-align: center;
     }
 
-    .map {
-        width: 75%;
-        height: 600px;
-        background-color: #333;
-        margin: auto;
+    #tableau {
+        display: flexbox;
+        height: 725px;
+        width: 1020px;
     }
 
     /*Get Involved Section*/
