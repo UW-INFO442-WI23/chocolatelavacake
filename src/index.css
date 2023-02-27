@@ -181,6 +181,11 @@ a:hover::before {
         padding: 5px;
     }
 
+    .filter-over {
+        display:flex;
+        flex-direction: column;
+    }
+
     .filter-overlay {
         
         padding-right: 1%;

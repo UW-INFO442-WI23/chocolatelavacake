@@ -93,34 +93,34 @@ export default function Mission(props) {
             </p>
             <div className='search-filter'>
                 <input className='search' placeholder="Search for an Organization"  value={textContent} onChange={handleChange}/>
-                
-                <button className='filter-btn' onClick = {handleClick}> 
-                    filter
-                </button>
-                <div id='overlay' className='filter-overlay'>
-                    <div className='overlay-header'>
-                        <i class="fa-solid fa-xmark" onClick={handleClick}></i>
-                        <h4>Location</h4>
+                <div className='filter-over'>
+                    <button className='filter-btn' onClick = {handleClick}> 
+                        filter
+                    </button>
+                    <div id='overlay' className='filter-overlay'>
+                        <div className='overlay-header'>
+                            <i class="fa-solid fa-xmark" onClick={handleClick}></i>
+                            <h4>Location</h4>
+                        </div>
+
+                        <input type='checkbox' id="US" className='filter-selection' onChange={checkBoxLocation} value = "US"/>
+                        <label for="location1"> US </label><br/>
+                        <input type='checkbox' id="International" className='filter-selection' onChange={checkBoxLocation} value = "International"/>
+                        <label for="location2"> International </label><br/>
+
+                        <h4>Organization Type</h4>
+
+                        <input type='checkbox' id="Political" className='filter-selection' onChange={checkBoxTags} value="Political"/>
+                        <label for="tag1"> Political </label><br/>
+                        <input type='checkbox' id="Violence" className='filter-selection' onChange={checkBoxTags} value="Violence"/>
+                        <label for="tag2"> Violence </label><br/>
+                        <input type='checkbox' id="Economic" className='filter-selection' onChange={checkBoxTags} value="Economic"/>
+                        <label for="tag3"> Economic </label><br/>
+                        <input type='checkbox' id="Health" className='filter-selection' onChange={checkBoxTags} value="Health"/>
+                        <label for="tag4"> Health </label><br/>
+                        
                     </div>
-
-                    <input type='checkbox' id="US" className='filter-selection' onChange={checkBoxLocation} value = "US"/>
-                    <label for="location1"> US </label><br/>
-                    <input type='checkbox' id="International" className='filter-selection' onChange={checkBoxLocation} value = "International"/>
-                    <label for="location2"> International </label><br/>
-
-                    <h4>Organization Type</h4>
-
-                    <input type='checkbox' id="Political" className='filter-selection' onChange={checkBoxTags} value="Political"/>
-                    <label for="tag1"> Political </label><br/>
-                    <input type='checkbox' id="Violence" className='filter-selection' onChange={checkBoxTags} value="Violence"/>
-                    <label for="tag2"> Violence </label><br/>
-                    <input type='checkbox' id="Economic" className='filter-selection' onChange={checkBoxTags} value="Economic"/>
-                    <label for="tag3"> Economic </label><br/>
-                    <input type='checkbox' id="Health" className='filter-selection' onChange={checkBoxTags} value="Health"/>
-                    <label for="tag4"> Health </label><br/>
-                    
                 </div>
-
             </div>
             <div className='org'>
                 <table>
