@@ -177,11 +177,35 @@ a:hover::before {
     }
 
     /* filter */
-    .filter {
+    .filter-btn {
         padding: 5px;
     }
 
+    .filter-overlay {
+        
+        padding-right: 1%;
+        padding-left: 1%;
+        border: 1px solid black;
+        visibility: hidden;
+        text-align: left;
+        position: absolute;
+        background-color: white;
+    }
 
+    .show {
+        visibility: visible;
+    }
+
+    .overlay-header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    h4 {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
     /* organizations */
     .org {
         width: 75%;
