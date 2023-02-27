@@ -87,10 +87,10 @@ a:hover::before {
     }
 
     #tableau {
-        display:flexbox;
-        height: 200px;
-        width: 300px;
+        height: 670px;
+        width: 100%;
         margin: auto;
+        justify-content: center;
     }
 
 }
@@ -140,8 +140,8 @@ a:hover::before {
     }
 
     #tableau {
-        display: flexbox;
-        height: 725px;
+        display: flex;
+        height: 750px;
         width: 1020px;
     }
 
