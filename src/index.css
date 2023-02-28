@@ -178,11 +178,15 @@ a:hover::before {
     /* filter */
     .filter-btn {
         padding: 5px;
+        width: auto;
+        background-color: #fff;
+        border: none;
     }
 
     .filter-over {
         display:flex;
         flex-direction: column;
+        
     }
 
     .filter-overlay {
@@ -194,6 +198,8 @@ a:hover::before {
         text-align: left;
         position: absolute;
         background-color: white;
+        margin-top: 2%;
+        border: none;
     }
 
     .show {
