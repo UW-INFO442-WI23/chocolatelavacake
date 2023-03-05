@@ -138,7 +138,14 @@ function results(data) {
         let row = (
             <tr key = {org.title}>
                 <td>
+                    
                     {org.title}
+                    <div className='org-visit'>
+                        {org.description}
+                        <button>
+                            test
+                        </button>
+                    </div>
                 </td>
             </tr>
         );

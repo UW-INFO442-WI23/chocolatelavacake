@@ -184,6 +184,10 @@ a:hover::before {
         text-align: center;
     }
 
+    .org-visit button{
+        float: right;
+    }
+
     /* search */
 
     .search-filter {
