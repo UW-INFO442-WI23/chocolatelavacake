@@ -21,22 +21,26 @@ nav {
     top: 0;
     width: 100%;
     opacity: 0.75;
+    background-color: #27476E;
 }
 
 .card {
-    background-color: #F9B5AC;
+    background-color: #27476ebd;
 }
 
 .card h3 {
     text-align: center;
+    color: white;
 }
 
 .title {
     text-align: center;
+    color: white;
 }
 
 .descript {
     text-align: center;
+    color: white;
 }
 
 nav ul {
@@ -60,7 +64,7 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    color: black;
+    color: white;
     position: relative;
 }
 .container-home img {
@@ -71,7 +75,7 @@ nav li a {
 
 /* change color on hover */
 nav li a:hover {
-    color: gold;
+    color: #C53683;
     transition: 0.3s ease-in-out;
 }
 
@@ -84,7 +88,7 @@ a::before {
     height: 2.5px;
     bottom: 0;
     left: 0;
-    background-color: gold;
+    background-color: #C53683;
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
