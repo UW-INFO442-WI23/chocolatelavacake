@@ -1,8 +1,11 @@
 /*header and navbar CSS */
+body {
+    margin: 0;
+    padding: 0;
+}
 
 header {
     text-align: center; /* center the logo and nav */
-    
 } 
 
 header h1 {
@@ -10,23 +13,31 @@ header h1 {
 }
 
 nav {
+    display: flex;
+    justify-content: space-between;
     position: fixed;
+    background: #f4f4f4;
+    padding: 10px 0 5px 0;
+    top: 0;
     width: 100%;
-    margin: auto;
-    margin-top: -70px;
-    
+}
+
+.logo {
+    height: 20px;
+    margin: auto 0 auto 30px;
 }
 
 nav ul {
     list-style-type: none;
     overflow: hidden;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    float: right;
+    margin-right: 30px;
 }
 
 nav li {
     display: inline;
     padding: 1vw;
-    
 }
 
 nav li a {
