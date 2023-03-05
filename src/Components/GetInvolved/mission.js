@@ -84,7 +84,7 @@ export default function Mission(props) {
     }
     
     return(
-        <div className='container-mission'>
+        <div className='container-mission' id='get-involved'>
             <h2>
                 Get Involved
             </h2>

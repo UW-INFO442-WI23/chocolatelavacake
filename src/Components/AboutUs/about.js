@@ -1,7 +1,7 @@
 import React from 'react';
 export default function About(props) {
     return (
-        <div className='about-container'>
+        <div className='about-container' id='about-us'>
             <h2>
                 About us
             </h2>

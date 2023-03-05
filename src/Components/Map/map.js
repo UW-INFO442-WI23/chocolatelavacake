@@ -3,7 +3,7 @@ import React from 'react';
 export default function map(props) {
 
     return (
-        <div className='map-container'>
+        <div className='map-container' id='interactive-map'>
             <h2>
                 Interactive Map
             </h2>
