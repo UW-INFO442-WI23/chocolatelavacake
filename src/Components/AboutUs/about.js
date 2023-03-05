@@ -8,31 +8,31 @@ export default function About(props) {
             <div class="card-container">
                 <div class="card">
                     <img src="IntroPhoto.jpg" alt="Your Name"></img>
-                    <h1>Cameron Rezak</h1>
+                    <h3>Cameron Rezak</h3>
+                    <p class="title">Software Developer</p>
+                    <p>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
+                </div>
+                <div class="card">
+                    <img src="Jacob.jpg" alt="photo of Jacob"></img>
+                    <h3>Jacob Kim</h3>
+                    <p class="title">Product Manager</p>
+                    <p>Jacob is an undergraduate student in the University of Washington's Informatics program. He has a strong interest in product management and data analytics.</p>
+                </div>
+                <div class="card">
+                    <img src="IntroPhoto.jpg" alt="Your Name"></img>
+                    <h3>Matthew Balgan</h3>
                     <p class="title">Software Developer</p>
                     <p>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
                 </div>
                 <div class="card">
                     <img src="IntroPhoto.jpg" alt="Your Name"></img>
-                    <h1>Cameron Rezak</h1>
+                    <h3>Ruolin Chen</h3>
                     <p class="title">Software Developer</p>
                     <p>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
                 </div>
                 <div class="card">
                     <img src="IntroPhoto.jpg" alt="Your Name"></img>
-                    <h1>Cameron Rezak</h1>
-                    <p class="title">Software Developer</p>
-                    <p>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
-                </div>
-                <div class="card">
-                    <img src="IntroPhoto.jpg" alt="Your Name"></img>
-                    <h1>Cameron Rezak</h1>
-                    <p class="title">Software Developer</p>
-                    <p>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
-                </div>
-                <div class="card">
-                    <img src="IntroPhoto.jpg" alt="Your Name"></img>
-                    <h1>Cameron Rezak</h1>
+                    <h3>Matthew Herradura</h3>
                     <p class="title">Software Developer</p>
                     <p>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
                 </div>
