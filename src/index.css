@@ -6,7 +6,7 @@ body {
 
 header {
     text-align: center; /* center the logo and nav */
-} 
+}
 
 header h1 {
     margin-bottom: 7vh; /*add space between logo and nav */
@@ -20,11 +20,7 @@ nav {
     padding: 10px 0 5px 0;
     top: 0;
     width: 100%;
-}
-
-.logo {
-    height: 20px;
-    margin: auto 0 auto 30px;
+    opacity: 0.75;
 }
 
 nav ul {
@@ -65,7 +61,7 @@ a::before {
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
-  
+
 a:hover::before {
     transform: scaleX(1);
 }
@@ -103,7 +99,7 @@ a:hover::before {
     h2 {
         text-align: center;
     }
-    
+
     p {
         text-align: center;
     }
@@ -152,7 +148,7 @@ a:hover::before {
         flex-direction: row-reverse;
         justify-content: space-between;
         text-align: right;
-        
+
     }
 
     .container-home {
@@ -232,11 +228,11 @@ a:hover::before {
     .filter-over {
         display:flex;
         flex-direction: column;
-        
+
     }
 
     .filter-overlay {
-        
+
         padding-right: 1%;
         padding-left: 1%;
         border: 1px solid black;
