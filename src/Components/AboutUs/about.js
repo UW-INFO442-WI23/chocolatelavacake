@@ -19,7 +19,7 @@ export default function About(props) {
                     <p>Jacob is an undergraduate student in the University of Washington's Informatics program. He has a strong interest in product management and data analytics.</p>
                 </div>
                 <div className="card">
-                    <img src="IntroPhoto.jpg" alt="Your Name"></img>
+                    <img src="matt.jpg" alt="photo of Matt"></img>
                     <h3>Matthew Balgan</h3>
                     <p className="title">Software Developer</p>
                     <p>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
