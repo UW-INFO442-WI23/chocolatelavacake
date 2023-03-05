@@ -1,7 +1,7 @@
 /*header and navbar CSS */
 body {
     margin: 0;
-    padding: 0;
+    padding-top: 40px;
 }
 
 header {
@@ -41,6 +41,11 @@ nav li a {
     color: black;
     position: relative;
 }
+.container-home img {
+    width: 1140px;
+    height: 600px;
+    object-fit: cover;
+}
 
 /* change color on hover */
 nav li a:hover {
@@ -64,6 +69,9 @@ a::before {
 
 a:hover::before {
     transform: scaleX(1);
+}
+.container-home h2 {
+    text-align: center;
 }
 
 
