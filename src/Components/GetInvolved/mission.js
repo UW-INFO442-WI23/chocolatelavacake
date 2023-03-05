@@ -1,7 +1,6 @@
 
 import React from 'react';
-import {useState, useEffect} from "react";
-import { useRef } from "react";
+import {useState} from "react";
 import info442data from "../data/info442data.json";
 
 export default function Mission(props) {
@@ -15,7 +14,6 @@ export default function Mission(props) {
     const DATA = [...info442data];
     let orgArray = [...DATA]; // initialize all orgs
     const [textContent, setTextContent] = useState("");
-    const [shownCards, changeCards] = useState(orgArray);
     let shownData = [...orgArray];
 
     const [appliedLocation, applyLocation] = useState([]);
@@ -145,9 +143,11 @@ function results(data) {
                         <p>
                             {org.description}
                         </p>
-                        <button>
-                            test
-                        </button>
+                        <a href={org.link} target="_blank">
+                            <button>
+                                Visit Website
+                            </button>
+                        </a>
                     </div>
                 </td>
             </tr>
