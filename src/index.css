@@ -218,11 +218,12 @@ a:hover::before {
 }
 
 @media (min-width: 769px) {
-
-/* image box sizing */
-    nav i {
-        visibility: hidden;
+    .container-home img {
+        margin: auto;
+        width: 100%;
     }
+/* image box sizing */
+
 
     .img-box {
         border: 1px solid black;
@@ -294,23 +295,20 @@ a:hover::before {
     td {
         background-color: white;
         border: 1px solid black;
-        text-align: left;
+        text-align: center;
     }
 
+
+
     .org-visit {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+        margin: auto;
     }
 
     .org-visit button {
         padding: 5px;
         border-radius: 10px;
         border: 0.5px;
-    }
-
-    .org-visit p {
-        width: 75%;
+        margin-bottom: 2%;
     }
 
     /* search */
@@ -330,9 +328,15 @@ a:hover::before {
     .filter-btn {
         padding: 10px;
         width: auto;
-        
-        
+        border: none;
+        font-size: 150%;
+        background-color: #fff;
     }
+
+    .filter-btn:hover {
+        border: 0.5px solid black;
+    }
+
 
     .filter-over {
         display:flex;

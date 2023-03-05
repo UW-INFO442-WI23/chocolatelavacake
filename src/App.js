@@ -13,6 +13,7 @@ export default function App(props) {
           <Nav />
         </header>
         <body>
+          
           <Home />
           <Map />
           <Mission />
