@@ -111,11 +111,73 @@ a:hover::before {
         justify-content: center;
     }
 
+    /* search */
+    .search-filter {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5%;
+       
+    }
+
+    .search {
+        width: 33.3%;
+        padding: 5px;
+        
+    }
+
+    /* filter */
+    .filter-btn {
+        padding: 5px;
+        width: auto;
+        background-color: #fff;
+        border: none;
+    }
+
+    .filter-over {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .filter-overlay {
+
+        padding-right: 1%;
+        padding-left: 1%;
+        border: 1px solid black;
+        visibility: hidden;
+        text-align: left;
+        position: absolute;
+        background-color: white;
+        margin-top: 2%;
+        border: none;
+    }
+
+    .show {
+        visibility: visible;
+    }
+
+    .overlay-header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .org {
+        margin: auto;
+        width: 75%;
+        height: 75vh;
+        overflow: scroll;
+    }
+
+    td {
+        background-color: white;
+        border: 1px solid black;
+        text-align: center;
+    }
+
+
 }
 
 @media (min-width: 769px) {
-
-
 
 /* image box sizing */
     .img-box {
@@ -191,14 +253,14 @@ a:hover::before {
         text-align: left;
     }
 
-    .org-vist {
+    .org-visit {
+        display: flex;
         align-items: center;
+        justify-content: space-between;
+        
     }
 
-    .org-visit button{
-        float: right;
-        margin-bottom: 2vh;
-    }
+
 
     .org-visit p {
         width: 75%;
@@ -228,7 +290,6 @@ a:hover::before {
     .filter-over {
         display:flex;
         flex-direction: column;
-
     }
 
     .filter-overlay {
@@ -258,6 +319,7 @@ a:hover::before {
         margin-top: 2%;
         margin-bottom: 2%;
     }
+
     /* organizations */
     .org {
         width: 75%;
