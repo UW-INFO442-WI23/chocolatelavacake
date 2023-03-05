@@ -10,7 +10,6 @@ export default function App(props) {
     return (
       <div className="App">
         <header>
-          <h1>Logo</h1>
           <Nav />
         </header>
         <body>
@@ -19,8 +18,7 @@ export default function App(props) {
           <Mission />
           <About />
         </body>
- 
+
       </div>
     );
   }
-  
