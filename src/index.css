@@ -23,6 +23,22 @@ nav {
     opacity: 0.75;
 }
 
+.card {
+    background-color: #F9B5AC;
+}
+
+.card h3 {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.descript {
+    text-align: center;
+}
+
 nav ul {
     list-style-type: none;
     overflow: hidden;
