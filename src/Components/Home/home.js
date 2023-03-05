@@ -23,7 +23,8 @@ export default function Home(props) {
                 <div className='img-box'>
                     <iframe id='video-1' title='UN SDG video' src="https://www.youtube.com/embed/kirtWKKAPNs"
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-                    picture-in-picture; web-share" allowfullscreen ></iframe>
+                    picture-in-picture; web-share; fullscreen" ></iframe>
+
                 </div>
             </div>
             <div className='paragraph-two'>
@@ -39,7 +40,7 @@ export default function Home(props) {
                 <div className='img-box'>
                     <iframe id='video-2' title='UN Gender Equality Vid' src="https://www.youtube.com/embed/ZC9jdhi6xgA"
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-                        picture-in-picture; web-share" allowfullscreen ></iframe>
+                        picture-in-picture; web-share; fullscreen" ></iframe>
                 </div>
             </div>
         </div>
