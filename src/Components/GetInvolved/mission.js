@@ -96,7 +96,7 @@ export default function Mission(props) {
                 <input className='search' placeholder="Search for an Organization"  value={textContent} onChange={handleChange}/>
                 <div className='filter-over'>
                     <button className='filter-btn' onClick = {handleClick}> 
-                        filter
+                        <i class="fa-solid fa-filter"></i>
                     </button>
                     <div id='overlay' className='filter-overlay'>
                         <div className='overlay-header'>
@@ -148,7 +148,7 @@ function results(data) {
                         </p>
                         <a href={org.link} target="_blank">
                             <button>
-                                Visit Website
+                                Visit Website 
                             </button>
                         </a>
                     </div>
