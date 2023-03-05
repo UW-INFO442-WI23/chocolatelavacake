@@ -138,10 +138,13 @@ function results(data) {
         let row = (
             <tr key = {org.title}>
                 <td>
-                    
+                    <h2>
                     {org.title}
+                    </h2>
                     <div className='org-visit'>
-                        {org.description}
+                        <p>
+                            {org.description}
+                        </p>
                         <button>
                             test
                         </button>
