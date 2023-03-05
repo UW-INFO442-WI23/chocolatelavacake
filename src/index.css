@@ -73,6 +73,7 @@ a:hover::before {
         display: none;
     }
 
+
     .container-home {
         margin: auto;
         width: 75%;
@@ -81,7 +82,7 @@ a:hover::before {
     .img-box {
         border: 1px solid black;
         background-color: #333;
-        width: 75%;
+        width: 100%;
         height: 264px;
     }
 
@@ -180,6 +181,10 @@ a:hover::before {
 @media (min-width: 769px) {
 
 /* image box sizing */
+    nav i {
+        visibility: hidden;
+    }
+    
     .img-box {
         border: 1px solid black;
         background-color: #333;
@@ -257,7 +262,6 @@ a:hover::before {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        
     }
 
 
