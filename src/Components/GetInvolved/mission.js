@@ -46,9 +46,12 @@ export default function Mission(props) {
     if (appliedLocation.length > 0 || appliedTags.length > 0) {
 
         let filterData = [...orgArray];
-        filterData = filterData.filter((org) => {
-            return (appliedLocation.every(i => org.location.includes(i)));
-        });
+
+        if (appliedLocation.length != 2) { // if both locations are selected then do not filter
+            filterData = filterData.filter((org) => { // if only one location is selected then filter for one location
+                return (appliedLocation.every(i => org.location.includes(i)));
+            });
+        }
 
         filterData = filterData.filter((org) => {
             return (appliedTags.every(i => org.tags.includes(i)));
