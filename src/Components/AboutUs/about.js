@@ -5,31 +5,39 @@ export default function About(props) {
             <h2>
                 About us
             </h2>
-            <div className='paragraph-one'>
-                <p className='text'>
-                Hello ipsum dolor sit amet. Vel enim officia et 
-                amet quasi in voluptatem provident vel animi 
-                internos et voluptatem molestias non consequatur 
-                totam! Ut obcaecati enim cum veniam tempore hic 
-                quidem consectetur ut consectetur alias.
-                </p>
-                <div className='img-box'>
-
+            <div class="card-container">
+                <div class="card">
+                    <img src="IntroPhoto.jpg" alt="Your Name"></img>
+                    <h1>Cameron Rezak</h1>
+                    <p class="title">Software Developer</p>
+                    <p>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
                 </div>
-            </div>
-            <div className='paragraph-two'>
-                <p className='text'>
-                Lorem ipsum dolor sit amet. Vel enim officia et 
-                amet quasi in voluptatem provident vel animi 
-                internos et voluptatem molestias non consequatur 
-                totam! Ut obcaecati enim cum veniam tempore hic 
-                quidem consectetur ut consectetur alias.
-                </p>
-                <div className='img-box'>
-
+                <div class="card">
+                    <img src="IntroPhoto.jpg" alt="Your Name"></img>
+                    <h1>Cameron Rezak</h1>
+                    <p class="title">Software Developer</p>
+                    <p>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
+                </div>
+                <div class="card">
+                    <img src="IntroPhoto.jpg" alt="Your Name"></img>
+                    <h1>Cameron Rezak</h1>
+                    <p class="title">Software Developer</p>
+                    <p>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
+                </div>
+                <div class="card">
+                    <img src="IntroPhoto.jpg" alt="Your Name"></img>
+                    <h1>Cameron Rezak</h1>
+                    <p class="title">Software Developer</p>
+                    <p>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
+                </div>
+                <div class="card">
+                    <img src="IntroPhoto.jpg" alt="Your Name"></img>
+                    <h1>Cameron Rezak</h1>
+                    <p class="title">Software Developer</p>
+                    <p>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
                 </div>
             </div>
         </div>
     )
-    
+
 };
