@@ -90,13 +90,13 @@ export default function Mission(props) {
                 Get Involved
             </h2>
             <p>
-                Lorem ipsum dolor sit amet. Vel enim officia et amet quasi in voluptatem provident vel animi internos et voluptatem molestias non consequatur totam! Ut obcaecati enim cum veniam tempore hic quidem consectetur ut consectetur alias.
+                You can get involved in the fight for gender equality by searching and filtering for different organizations below! Select "visit website" to visit each organizations individual webpage.
             </p>
             <div className='search-filter'>
                 <input className='search' placeholder="Search for an Organization"  value={textContent} onChange={handleChange}/>
                 <div className='filter-over'>
                     <button className='filter-btn' onClick = {handleClick}> 
-                        filter
+                        <i class="fa-solid fa-filter"></i>
                     </button>
                     <div id='overlay' className='filter-overlay'>
                         <div className='overlay-header'>
@@ -148,7 +148,7 @@ function results(data) {
                         </p>
                         <a href={org.link} target="_blank">
                             <button>
-                                Visit Website
+                                Visit Website 
                             </button>
                         </a>
                     </div>

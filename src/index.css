@@ -21,6 +21,26 @@ nav {
     top: 0;
     width: 100%;
     opacity: 0.75;
+    background-color: #27476E;
+}
+
+.card {
+    background-color: #27476ebd;
+}
+
+.card h3 {
+    text-align: center;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+.descript {
+    text-align: center;
+    color: white;
 }
 
 nav ul {
@@ -44,7 +64,7 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    color: black;
+    color: white;
     position: relative;
 }
 .container-home img {
@@ -55,7 +75,7 @@ nav li a {
 
 /* change color on hover */
 nav li a:hover {
-    color: gold;
+    color: #C53683;
     transition: 0.3s ease-in-out;
 }
 
@@ -68,7 +88,7 @@ a::before {
     height: 2.5px;
     bottom: 0;
     left: 0;
-    background-color: gold;
+    background-color: #C53683;
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
@@ -220,11 +240,12 @@ a:hover::before {
 }
 
 @media (min-width: 769px) {
-
-/* image box sizing */
-    nav i {
-        visibility: hidden;
+    .container-home img {
+        margin: auto;
+        width: 100%;
     }
+/* image box sizing */
+
 
     .img-box {
         border: 1px solid black;
@@ -296,19 +317,20 @@ a:hover::before {
     td {
         background-color: white;
         border: 1px solid black;
-        text-align: left;
+        text-align: center;
     }
+
+
 
     .org-visit {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        margin: auto;
     }
 
-
-
-    .org-visit p {
-        width: 75%;
+    .org-visit button {
+        padding: 5px;
+        border-radius: 10px;
+        border: 0.5px;
+        margin-bottom: 2%;
     }
 
     /* search */
@@ -326,11 +348,17 @@ a:hover::before {
 
     /* filter */
     .filter-btn {
-        padding: 5px;
+        padding: 10px;
         width: auto;
-        background-color: #fff;
         border: none;
+        font-size: 150%;
+        background-color: #fff;
     }
+
+    .filter-btn:hover {
+        border: 0.5px solid black;
+    }
+
 
     .filter-over {
         display:flex;
@@ -368,7 +396,7 @@ a:hover::before {
     /* organizations */
     .org {
         width: 75%;
-        height: 400px;
+        height: 600px;
         background-color: #333;
         margin: auto;
         overflow: scroll;
