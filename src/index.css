@@ -316,10 +316,14 @@ a:hover::before {
     .org-visit {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
-
+    .org-visit button {
+        padding: 5px;
+        border-radius: 10px;
+        border: 0.5px;
+    }
 
     .org-visit p {
         width: 75%;
@@ -340,10 +344,10 @@ a:hover::before {
 
     /* filter */
     .filter-btn {
-        padding: 5px;
+        padding: 10px;
         width: auto;
-        background-color: #fff;
-        border: none;
+        
+        
     }
 
     .filter-over {
