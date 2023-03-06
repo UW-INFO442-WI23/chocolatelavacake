@@ -138,7 +138,7 @@ function results(data) {
     data = data.map((org) => {
         let row = (
             <tr key = {org.title}>
-                <td>
+                <td className='results'>
                     <h2>
                     {org.title}
                     </h2>
@@ -147,7 +147,7 @@ function results(data) {
                             {org.description}
                         </p>
                         <a href={org.link} target="_blank">
-                            <button>
+                            <button className='button'>
                                 Visit Website <i class="fa-solid fa-arrow-right"></i>
                             </button>
                         </a>

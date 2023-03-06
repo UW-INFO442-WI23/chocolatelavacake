@@ -12,6 +12,19 @@ header h1 {
     margin-bottom: 7vh; /*add space between logo and nav */
 }
 
+.results {
+    background-color: #FFCCEA;
+}
+
+.button:hover {
+    background-color: #C53683;
+    color: white;
+}
+
+.button {
+    background-color: white;
+}
+
 nav {
     display: flex;
     justify-content: space-between;

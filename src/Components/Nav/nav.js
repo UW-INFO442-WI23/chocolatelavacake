@@ -4,7 +4,7 @@ import React from 'react';
 export default function Nav(props) {
     return(
         <nav>
-            <img className="logo" src="logo.png" />
+            <img className="logo" src="logo.png" alt='Group of 8 women taking a photo together' />
             <ul>
                 <li><a className="navigator" href="/Home">Introduction</a></li>
                 <li>|</li>
