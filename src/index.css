@@ -101,6 +101,8 @@ a:hover::before {
 }
 .card-container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
