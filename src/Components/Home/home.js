@@ -3,7 +3,7 @@ export default function Home(props) {
     return (
         <div className='container-home'>
             <div>
-            <img src="IntroPhoto.jpg" alt="Group of Women Smiling" className='header-photo'></img>
+            <img src="IntroPhoto.png" alt="Group of Women Smiling" className='header-photo'></img>
                 <h1>
                     Introduction
                 </h1>
