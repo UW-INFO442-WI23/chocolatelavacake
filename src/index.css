@@ -1,8 +1,12 @@
 /*header and navbar CSS */
+h1, h2, h3, h4, a, p, li {
+    font-family: "Mulish";
+    color: #2B2B2B;
+}
+
 body {
     margin: 0;
     padding-top: 40px;
-    font-family: 'Tilt Warp', cursive;
 }
 
 .app-contain {
@@ -10,7 +14,6 @@ body {
 }
 
 h1 {
-    font-family: 'Tilt Warp', cursive;
     font-size: xx-large;
     color: #C53683;
     text-align: center;
@@ -44,7 +47,6 @@ header {
 
 header h1 {
     margin-bottom: 7vh; /*add space between logo and nav */
-    font-family: 'Tilt Warp', cursive;
 }
 
 .results {
@@ -58,7 +60,6 @@ header h1 {
 
 .button {
     background-color: white;
-    font-family: 'Tilt Warp', cursive;
 }
 
 nav {
@@ -179,8 +180,12 @@ a:hover::before {
 
   .title {
     font-size: 18px;
-    font-weight: bold;
   }
+
+p {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
 
 /* hid navbar on mobile phones and tablets */
 @media (max-width:768px) {
@@ -221,7 +226,6 @@ a:hover::before {
 
     p {
         text-align: center;
-        font-family: 'Tilt Warp', cursive;
     }
 
     #tableau {
@@ -326,7 +330,6 @@ a:hover::before {
     .paragraph-one {
         display: flex;
         justify-content: space-between;
-        text-align: left;
     }
 
     .paragraph-two {
@@ -334,8 +337,10 @@ a:hover::before {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        text-align: right;
+    }
 
+    .paragraph-one p, .paragraph-two p {
+        text-align: left;
     }
 
     .container-home {
@@ -345,7 +350,6 @@ a:hover::before {
 
     .container-home p {
         width: 40%;
-        font-family: 'Tilt Warp', cursive;
         font-size: large;
     }
 

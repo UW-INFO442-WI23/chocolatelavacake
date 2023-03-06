@@ -25,10 +25,10 @@ export default function About(props) {
                     <p className='descript'>Matt is an undergraduate student in the University of Washington's Informatics program. He is aiming to become a software developer in the near future.</p>
                 </div>
                 <div className="card">
-                    <img src="IntroPhoto.jpg" alt="photo of Ruolin"></img>
+                    <img src="ruolin.jpg" alt="photo of Ruolin"></img>
                     <h3>Ruolin Chen</h3>
-                    <p className="title">Software Developer</p>
-                    <p className='descript'>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
+                    <p className="title">UX Designer</p>
+                    <p className='descript'>Ruolin is an undergraduate student at UW. She wants to continue her study in Human-Computer Interaction and aiming to become a Strategic Researcher in the future.</p>
                 </div>
                 <div className="card">
                     <img src="matthewh.jpg" alt="Photo of Matthew"></img>
