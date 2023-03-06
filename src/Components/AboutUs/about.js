@@ -7,10 +7,10 @@ export default function About(props) {
             </h1>
             <div className="card-container">
                 <div className="card">
-                    <img src="IntroPhoto.jpg" alt="Photo of Cameron"></img>
+                    <img src="cameron.jpeg" alt="Photo of Cameron"></img>
                     <h3>Cameron Rezak</h3>
-                    <p className="title">Software Developer</p>
-                    <p className='descript'>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
+                    <p className="title">Project Manager</p>
+                    <p className='descript'>Cameron is an undergraduate student in the University of Washington's Informatics program. He aspires to make an impact through technology with a human purpose.</p>
                 </div>
                 <div className="card">
                     <img src="Jacob.jpg" alt="photo of Jacob"></img>
