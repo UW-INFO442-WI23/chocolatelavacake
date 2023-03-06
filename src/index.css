@@ -5,6 +5,10 @@ body {
     font-family: 'Tilt Warp', cursive;
 }
 
+.app-contain {
+    padding-top: 40px;
+}
+
 h1 {
     font-family: 'Tilt Warp', cursive;
     font-size: xx-large;
@@ -71,6 +75,11 @@ nav {
 
 .card {
     background-color: #27476ebd;
+}
+
+.card img {
+    width: 100%;
+    height: 360px;
 }
 
 .card h3 {

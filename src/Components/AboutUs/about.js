@@ -7,7 +7,7 @@ export default function About(props) {
             </h1>
             <div className="card-container">
                 <div className="card">
-                    <img src="IntroPhoto.jpg" alt="Your Name"></img>
+                    <img src="IntroPhoto.jpg" alt="Photo of Cameron"></img>
                     <h3>Cameron Rezak</h3>
                     <p className="title">Software Developer</p>
                     <p className='descript'>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
@@ -25,13 +25,13 @@ export default function About(props) {
                     <p className='descript'>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
                 </div>
                 <div className="card">
-                    <img src="IntroPhoto.jpg" alt="Your Name"></img>
+                    <img src="IntroPhoto.jpg" alt="photo of Ruolin"></img>
                     <h3>Ruolin Chen</h3>
                     <p className="title">Software Developer</p>
                     <p className='descript'>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
                 </div>
                 <div className="card">
-                    <img src="matthewh.jpg" alt="Your Name"></img>
+                    <img src="matthewh.jpg" alt="Photo of Matthew"></img>
                     <h3>Matthew Herradura</h3>
                     <p className="title">Software Developer</p>
                     <p className='descript'>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>

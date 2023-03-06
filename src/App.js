@@ -13,10 +13,12 @@ export default function App(props) {
           <Nav />
         </header>
           
+        <div className="app-contain">  
           <Home />
           <Map />
           <Mission />
           <About />
+        </div>
 
       </div>
     );
