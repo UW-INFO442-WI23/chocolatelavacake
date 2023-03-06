@@ -12,13 +12,11 @@ export default function App(props) {
         <header>
           <Nav />
         </header>
-        <body>
           
           <Home />
           <Map />
           <Mission />
           <About />
-        </body>
 
       </div>
     );
