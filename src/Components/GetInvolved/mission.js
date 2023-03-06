@@ -148,7 +148,7 @@ function results(data) {
                         </p>
                         <a href={org.link} target="_blank">
                             <button>
-                                Visit Website 
+                                Visit Website <i class="fa-solid fa-arrow-right"></i>
                             </button>
                         </a>
                     </div>

@@ -31,7 +31,7 @@ export default function About(props) {
                     <p className='descript'>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
                 </div>
                 <div className="card">
-                    <img src="IntroPhoto.jpg" alt="Your Name"></img>
+                    <img src="matthewh.jpg" alt="Your Name"></img>
                     <h3>Matthew Herradura</h3>
                     <p className="title">Software Developer</p>
                     <p className='descript'>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
