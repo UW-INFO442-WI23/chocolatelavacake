@@ -100,25 +100,25 @@ export default function Mission(props) {
                     </button>
                     <div id='overlay' className='filter-overlay'>
                         <div className='overlay-header'>
-                            <i class="fa-solid fa-xmark" onClick={handleClick}></i>
+                            <i className="fa-solid fa-xmark" onClick={handleClick}></i>
                             <h4>Location</h4>
                         </div>
 
                         <input type='checkbox' id="US" className='filter-selection' onChange={checkBoxLocation} value = "US"/>
-                        <label for="location1"> US </label><br/>
+                        <label htmlFor="location1"> US </label><br/>
                         <input type='checkbox' id="International" className='filter-selection' onChange={checkBoxLocation} value = "International"/>
-                        <label for="location2"> International </label><br/>
+                        <label htmlFor="location2"> International </label><br/>
 
                         <h4>Organization Type</h4>
 
                         <input type='checkbox' id="Political" className='filter-selection' onChange={checkBoxTags} value="Political"/>
-                        <label for="tag1"> Political </label><br/>
+                        <label htmlFor="tag1"> Political </label><br/>
                         <input type='checkbox' id="Violence" className='filter-selection' onChange={checkBoxTags} value="Violence"/>
-                        <label for="tag2"> Violence </label><br/>
+                        <label htmlFor="tag2"> Violence </label><br/>
                         <input type='checkbox' id="Economic" className='filter-selection' onChange={checkBoxTags} value="Economic"/>
-                        <label for="tag3"> Economic </label><br/>
+                        <label htmlFor="tag3"> Economic </label><br/>
                         <input type='checkbox' id="Health" className='filter-selection' onChange={checkBoxTags} value="Health"/>
-                        <label for="tag4"> Health </label><br/>
+                        <label htmlFor="tag4"> Health </label><br/>
                         
                     </div>
                 </div>
@@ -148,7 +148,7 @@ function results(data) {
                         </p>
                         <a href={org.link} target="_blank">
                             <button className='button'>
-                                Visit Website <i class="fa-solid fa-arrow-right"></i>
+                                Visit Website <i className="fa-solid fa-arrow-right"></i>
                             </button>
                         </a>
                     </div>
