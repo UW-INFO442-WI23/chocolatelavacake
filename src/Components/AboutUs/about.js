@@ -22,7 +22,7 @@ export default function About(props) {
                     <img src="matt.jpg" alt="photo of Matt"></img>
                     <h3>Matthew Balgan</h3>
                     <p className="title">Software Developer</p>
-                    <p className='descript'>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
+                    <p className='descript'>Matt is an undergraduate student in the University of Washington's Informatics program. He is aiming to become a software developer in the near future.</p>
                 </div>
                 <div className="card">
                     <img src="IntroPhoto.jpg" alt="photo of Ruolin"></img>
