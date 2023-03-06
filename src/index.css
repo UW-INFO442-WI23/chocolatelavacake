@@ -143,9 +143,12 @@ a:hover::before {
 
 /* hid navbar on mobile phones and tablets */
 @media (max-width:768px) {
+    body {
+        padding: 0;
+    }
 
     .container-home img {
-        visibility: hidden;
+        display: none;
     }
 
     nav {
