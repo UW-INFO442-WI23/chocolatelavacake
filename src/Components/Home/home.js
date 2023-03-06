@@ -4,9 +4,9 @@ export default function Home(props) {
         <div className='container-home'>
             <div>
             <img src="IntroPhoto.jpg" alt="Group of Women Smiling" className='header-photo'></img>
-                <h2>
+                <h1>
                     Introduction
-                </h2>
+                </h1>
             </div>
             <div className='paragraph-one'>
                 <p className='text'>

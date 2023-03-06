@@ -2,9 +2,9 @@ import React from 'react';
 export default function About(props) {
     return (
         <div className='about-container' id='about-us'>
-            <h2>
+            <h1>
                 About us
-            </h2>
+            </h1>
             <div className="card-container">
                 <div className="card">
                     <img src="IntroPhoto.jpg" alt="Your Name"></img>

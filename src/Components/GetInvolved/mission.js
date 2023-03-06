@@ -86,9 +86,9 @@ export default function Mission(props) {
     
     return(
         <div className='container-mission' id='get-involved'>
-            <h2>
+            <h1>
                 Get Involved
-            </h2>
+            </h1>
             <p>
                 You can get involved in the fight for gender equality by searching and filtering for different organizations below! Select "visit website" to visit each organizations individual webpage.
             </p>
@@ -96,7 +96,7 @@ export default function Mission(props) {
                 <input className='search' placeholder="Search for an Organization"  value={textContent} onChange={handleChange}/>
                 <div className='filter-over'>
                     <button className='filter-btn' onClick = {handleClick}> 
-                        <i class="fa-solid fa-filter"></i>
+                        <i className="fa-solid fa-filter"></i>
                     </button>
                     <div id='overlay' className='filter-overlay'>
                         <div className='overlay-header'>

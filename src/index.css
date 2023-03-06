@@ -2,6 +2,36 @@
 body {
     margin: 0;
     padding-top: 40px;
+    font-family: 'Tilt Warp', cursive;
+}
+
+h1 {
+    font-family: 'Tilt Warp', cursive;
+    font-size: xx-large;
+    color: #C53683;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.results h2 {
+    color: #C53683;
+}
+
+.org-visit button {
+    padding: 5px;
+    border-radius: 10px;
+    border: 0.5px;
+    margin-bottom: 2%;
+}
+
+.search {
+    padding: 5px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    margin-bottom: 2%;
 }
 
 header {
@@ -10,6 +40,7 @@ header {
 
 header h1 {
     margin-bottom: 7vh; /*add space between logo and nav */
+    font-family: 'Tilt Warp', cursive;
 }
 
 .results {
@@ -23,6 +54,7 @@ header h1 {
 
 .button {
     background-color: white;
+    font-family: 'Tilt Warp', cursive;
 }
 
 nav {
@@ -178,13 +210,9 @@ a:hover::before {
         width: 100%;
     }
 
-
-    h2 {
-        text-align: center;
-    }
-
     p {
         text-align: center;
+        font-family: 'Tilt Warp', cursive;
     }
 
     #tableau {
@@ -308,7 +336,7 @@ a:hover::before {
 
     .container-home p {
         width: 40%;
-        font-family: "Times New Roman", Times, serif;
+        font-family: 'Tilt Warp', cursive;
         font-size: large;
     }
 
@@ -347,12 +375,6 @@ a:hover::before {
         margin: auto;
     }
 
-    .org-visit button {
-        padding: 5px;
-        border-radius: 10px;
-        border: 0.5px;
-        margin-bottom: 2%;
-    }
 
     /* search */
 
