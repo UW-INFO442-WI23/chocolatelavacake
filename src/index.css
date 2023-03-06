@@ -130,6 +130,11 @@ a:hover::before {
 
 /* hid navbar on mobile phones and tablets */
 @media (max-width:768px) {
+
+    .container-home img {
+        visibility: hidden;
+    }
+
     nav {
         display: none;
     }
@@ -376,7 +381,7 @@ a:hover::before {
         margin-top: 2%;
         border: none;
         filter: drop-shadow(0 0 0.10rem black);
-        
+
     }
 
     .show {
