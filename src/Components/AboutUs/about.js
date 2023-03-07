@@ -34,7 +34,7 @@ export default function About(props) {
                     <img src="matthewh.jpg" alt="Photo of Matthew"></img>
                     <h3>Matthew Herradura</h3>
                     <p className="title">Software Developer</p>
-                    <p className='descript'>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or Description</p>
+                    <p className='descript'>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio</p>
                 </div>
             </div>
         </div>
