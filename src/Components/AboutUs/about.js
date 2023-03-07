@@ -34,7 +34,7 @@ export default function About(props) {
                     <img src="matthewh.jpg" alt="Photo of Matthew"></img>
                     <h3>Matthew Herradura</h3>
                     <p className="title">Software Developer</p>
-                    <p className='descript'>Short Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio or DescriptionShort Bio</p>
+                    <p className='descript'>Matthew is an undergraduate student at the University of Washington's iSchool. His focus is related to Human-Computer Interaction and he has strong interests in UX design as well as front end development.</p>
                 </div>
             </div>
         </div>
