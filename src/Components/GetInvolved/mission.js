@@ -143,7 +143,7 @@ function results(data) {
                     {org.title}
                     </h2>
                     <div className='org-visit'>
-                        <p>
+                        <p className='org-descr'>
                             {org.description}
                         </p>
                         <a href={org.link} target="_blank">
