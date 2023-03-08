@@ -47,7 +47,7 @@ export default function Mission(props) {
 
         let filterData = [...orgArray];
 
-        if (appliedLocation.length != 2) { // if both locations are selected then do not filter
+        if (appliedLocation.length !== 2) { // if both locations are selected then do not filter
             filterData = filterData.filter((org) => { // if only one location is selected then filter for one location
                 return (appliedLocation.every(i => org.location.includes(i)));
             });
@@ -146,7 +146,7 @@ function results(data) {
                         <p className='org-descr'>
                             {org.description}
                         </p>
-                        <a href={org.link} target="_blank">
+                        <a href={org.link} target="_blank" rel="noreferrer">
                             <button className='button'>
                                 Visit Website <i className="fa-solid fa-arrow-right"></i>
                             </button>
